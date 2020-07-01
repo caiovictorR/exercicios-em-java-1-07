@@ -1,0 +1,28 @@
+package triângulo;
+
+public class Triângulo {
+    public static void main(String[] args)
+            
+            double a,b,c
+                    
+a=double.parseDouble(JOptionPane.showInputDialog("Digite o primeiro lado do triangulo"));
+b=double.parseDouble(JOptionPane.showInputDialog("Digite o segundo lado do triangulo"));
+c=double.parseDouble(JOptionPane.showInputDialog("Digite o terceito lado do triangulo"));
+
+if((a<(b+c)) and (a >(Math.abs(b-c)))) and ((b<(a+c)) and (b>(Math.abs(a-c)))) and ((c<(abs(b-a)) and (c>(Math.abs(b-a)))){
+  
+    if((a=b) and (b=c) and (a=c)
+    JOptionPane.showmessageDialog(null,"è triangulo equilatero");  
+    
+     if(((a<>b) and (b<>c) and (a<>c))
+    JOptionPane.showmessageDialog(null,"è triangulo escaleno"); 
+    
+    if(((a=b) and (b<>c) and (b=c) and (c<>a)) and (a=c) and (c<>b))
+    JOptionPane.showmessageDialog(null,"è triangulo sisoceles"); 
+else
+}
+JOptionPane.showmessageDialog(null,"nao é um triangulo")
+
+
+
+}
