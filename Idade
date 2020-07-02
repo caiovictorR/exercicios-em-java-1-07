@@ -1,0 +1,22 @@
+package Idade;
+public class Idade {
+    
+     public static void main (string[]args)
+            double altura,idade,pode,naopode
+                  
+    altura=Double.parseDouble(JOptionPane.showInputDialog("Qual sua altura: "));
+    
+    idade=Double.parseDouble(JOptionPane.showInputDialog("Qual sua idade: "));
+    
+    if
+    (pode<-(idade>=18) & (altura>=1.75)
+   JOptionPane.showMessageDiaLog(null,"Voce ira competir"+pode);
+   
+   if
+   (naopode<-(idade<=18) & (altura<=1.75)
+   JOptionPane.showMessageDiaLog(null,"Voce nao ira competir"+naopode);
+   
+   else
+       
+    
+}

@@ -1,0 +1,19 @@
+package Carro;
+public class Carro {
+    
+    public static void main (string[]args)
+            double idade,resp
+                   
+    idade=Double.parseDouble(JOptionPane.showMessageDiaLog("Qual sua idade: "));
+    resp=Double.parseDouble(JOptionPane.showMessageDiaLog("Possui habilitação: "));
+    
+    if
+    ((idade>=)&(resp="sim"))
+    JOptionPane.showMessageDiaLog(null,"Pode passar"+resp);
+    
+    else
+    JOptionPane.showMessageDiaLog(null,"Nao pode passar"+resp);
+   
+    
+    
+}

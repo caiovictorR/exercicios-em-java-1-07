@@ -1,0 +1,19 @@
+package ParOuImpar;
+public class ParOuImpar {
+    
+    
+    public static void main (string[]args)
+            double num
+                  
+    num=Double.parseDouble(JOptionPane.showMessageDiaLog("digite um valor: "));
+    
+    if
+    (num mod 2) =0
+    JOptionPane.showMessageDiaLog(null,"Par");
+                    
+    else
+    JOptionPane.showMessageDiaLog(null,"Impar");
+    
+    
+                    
+}

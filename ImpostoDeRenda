@@ -1,0 +1,27 @@
+package ImpostoDeRenda;
+public class ImpostoDeRenda {
+    
+    public static void main (string[]args)
+            double salario,resp;
+            
+    salario=Double.parseDouble(JOptionPane.showInputDialog("Qual seu salario"));
+    
+    if (salario<=1903.98)
+    resp= 0
+            
+    if ((salario >=1903.99) & (salario <=2826.65))
+    resp<-salario*0.075
+    
+    if (salario >=2826.66) & (salario<=2751.05)
+    resp<-salario*0.15
+    
+    if (salario>=3751.06) & (salario<=4664.68)
+    resp<-salario*22,5
+    
+    if (salario<=4664.68)
+    resp<-salario*27,5
+    
+    else
+    JOptionPane.showMessageDiaLog(null,"O desconto na sua folha de pagamento sera de: R$"+resp);
+            
+}

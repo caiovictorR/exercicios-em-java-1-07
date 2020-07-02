@@ -1,0 +1,36 @@
+package imc;
+public class imc {
+    
+    public static void main (string[]args)
+            double altura,peso,imc
+                    
+    altura=Double.parseDouble(JOptionPane.showInputDialog("Qual sua altura: "));
+    
+    peso=Double.parseDouble(JOptionPane.showInputDialog("Qual seu peso: "));
+    
+    if imc<-(peso/(altura*altura))
+    
+    if (imc<= 18.5)
+    JOptionPane.showMessageDiaLog(null,"Abaixo do peso,com IMC de:  "+imc);
+    else
+    
+    if ((imc > 18.5) & (imc <=24.9))
+     JOptionPane.showMessageDiaLog(null,"Peso ideal/Normal,com IMC de:  "+imc);
+     else
+     
+     if ((imc>=25) & (imc<=29.9))
+     JOptionPane.showMessageDiaLog(null,"Voce esta com sobrepeso,com IMC de: "+imc);
+     else
+     
+     if ((imc>=30) & (imc<=34.9))
+     JOptionPane.showMessageDiaLog(null,"Obesidade Grau 1,com IMC de: "+imc)
+     else
+     
+     if (imc>=35) & (imc<=39.9)
+     JOptionPane.showMessageDiaLog(null,"Obesidade garu 2,com IMC de: "+imc)
+     else
+     
+     if (imc>=40)
+     JOptionPane.showMessageDiaLog(null,"Obesidade grau 3,com IMC de: "+imc)
+     else
+}
